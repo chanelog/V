@@ -7,7 +7,7 @@
 # ============================================================
 
 REPO="https://raw.githubusercontent.com/chanelog/bin/main"
-RAW="https://raw.githubusercontent.com/chanelog/xray/main"
+RAW="https://raw.githubusercontent.com/chanelog/V/main"
 SCRIPT_DIR="/etc/vpn-script"
 BIN_DIR="/usr/local/bin"
 
@@ -954,11 +954,7 @@ install_script_files() {
   chmod +x $BIN_DIR/vpn
 
   cat > $SCRIPT_DIR/banner.txt <<'EOF2'
-CHANELOG VPN TUNNEL SERVER
-        NO HACKING
-        NO DDOS
-        NO VOKEP
-GUNAKAN SEBIJAK MUNGKIN
+<=CHANELOG VPN TUNNEL SERVER=>
 EOF2
 
   echo -e "${GREEN}[OK]${NC} Script files terinstall"
